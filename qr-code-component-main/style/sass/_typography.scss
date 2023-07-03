@@ -1,0 +1,21 @@
+.heading {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: auto;
+
+    @media only screen and (max-width: $bp-small) {
+        font-size: 19px;
+    }
+}
+
+.paragraph {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: auto;
+    letter-spacing: 0.19px;
+    color: $color-grey;
+
+    @media only screen and (max-width: $bp-small) {
+        font-size: 14px;
+    }
+}
